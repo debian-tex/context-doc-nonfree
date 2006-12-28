@@ -1,0 +1,15 @@
+Source: context-doc-nonfree
+Section: non-free/doc
+Priority: optional
+Maintainer: Debian TeX maintainers <debian-tex-maint@lists.debian.org>
+Uploaders: Norbert Preining <preining@debian.org>
+Build-Depends: debhelper (>= 5.0.35)
+Standards-Version: 3.7.2
+
+Package: context-doc-nonfree
+Architecture: all
+Suggests: context, context-nonfree
+Description: ConTeXt documentation that is not DFSG free
+ The web site of ConTeXt provides a plethora of documents in pdf format
+ documenting many features of ConTeXt and friends. These documents are
+ only available as pdf documents.

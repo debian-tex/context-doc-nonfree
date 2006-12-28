@@ -1,0 +1,6 @@
+context-doc-nonfree (2006.12.21-1) unstable; urgency=low
+
+  * first upload
+  * include several documentation pdfs from the context web site
+
+ -- Norbert Preining <preining@debian.org>  Fri, 22 Dec 2006 17:55:22 +0100
