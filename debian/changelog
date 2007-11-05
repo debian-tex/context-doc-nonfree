@@ -1,8 +1,8 @@
-context-doc-nonfree (2007.01.02-2) UNRELEASED; urgency=low
+context-doc-nonfree (2007.01.02-2~1) unstable; urgency=low
 
-  * UNRELEASED
+  * do not compress pdf documents
 
- -- Norbert Preining <preining@debian.org>  Tue,  9 Jan 2007 18:02:55 +0100
+ -- Norbert Preining <preining@debian.org>  Mon, 05 Nov 2007 22:44:07 +0100
 
 context-doc-nonfree (2007.01.02-1) unstable; urgency=low
 
