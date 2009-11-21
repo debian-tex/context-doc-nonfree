@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian TeX maintainers <debian-tex-maint@lists.debian.org>
 Uploaders: Norbert Preining <preining@debian.org>
 Build-Depends: debhelper (>= 5.0.35)
-Standards-Version: 3.7.2
+Standards-Version: 3.8.3
 
 Package: context-doc-nonfree
 Architecture: all

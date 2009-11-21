@@ -1,8 +1,9 @@
-context-doc-nonfree (2007.01.02-2~1) unstable; urgency=low
+context-doc-nonfree (2009.10.27-1) unstable; urgency=low
 
+  * new collection of docs taken from the pragma-ade website
   * do not compress pdf documents
 
- -- Norbert Preining <preining@debian.org>  Mon, 05 Nov 2007 22:44:07 +0100
+ -- Norbert Preining <preining@debian.org>  Sat, 21 Nov 2009 14:58:42 +0900
 
 context-doc-nonfree (2007.01.02-1) unstable; urgency=low
 
