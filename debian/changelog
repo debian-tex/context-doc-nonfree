@@ -1,12 +1,13 @@
 context-doc-nonfree (2012.06.27-1) unstable; urgency=low
 
-  * new download from the web pages, more complete
+  * new download from the web pages, more complete, and keep directory
+    structure (Closes: #620187, #609507)
   * add a bit to the README how to view the showcase
   * switch to source format 3.0 to get xz compression
   * adjust compatibility and standards level
   * update copyright file
 
- -- Norbert Preining <preining@debian.org>  Wed, 27 Jun 2012 23:21:23 +0900
+ -- Norbert Preining <preining@debian.org>  Thu, 28 Jun 2012 00:03:29 +0900
 
 context-doc-nonfree (2009.10.27-1) unstable; urgency=low
 
