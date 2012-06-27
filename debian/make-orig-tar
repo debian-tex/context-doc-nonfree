@@ -8,9 +8,9 @@ if [ -d $pkg ] ; then
   exit 1
 fi
 
-mkdir $pkg
-cd $pkg
+mkdir -p $pkg/base
+cd $pkg/base
 wget --force-directories --no-host-directories --no-verbose \
   -i http://www.pragma-ade.com/wget.txt
 
-cd ..
+cd ../..
