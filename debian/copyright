@@ -3,7 +3,7 @@ Sun Oct 22 11:53:51 CEST 2006.
 
 The pdf documents are taken from
 	http://www.pragma-ade.com/
-and repacked into a tar.gz.
+and repacked into a .orig.tar.xz
 
 The files contained in these package are redistributable but not considered
 free according to the DFSG, as the sources of the included PDF files are
@@ -16,5 +16,5 @@ license.
 Debian adaptations for this Package are licensed under the GNU General
 Public License, version 2, and are under Copyright by:
 
-	Norbert Preining <preining@debian.org> (2006, 2009)
+	Norbert Preining <preining@debian.org> (2006, 2009, 2012)
 

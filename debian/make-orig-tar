@@ -1,0 +1,16 @@
+
+verstr=`date +%Y.%m.%d`
+pkg="context-doc-nonfree-$verstr"
+orig="context_${verstr}.orig.tar.gz"
+
+if [ -d $pkg ] ; then
+  echo "dir $pkg already present, please remove it!"
+  exit 1
+fi
+
+mkdir $pkg
+cd $pkg
+wget --force-directories --no-host-directories --no-verbose \
+  -i http://www.pragma-ade.com/wget.txt
+
+cd ..

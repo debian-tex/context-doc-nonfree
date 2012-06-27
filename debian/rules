@@ -6,6 +6,7 @@ instbase       := debian/$(package)
 build: build-indep
 
 build-indep: build-indep-stamp
+build-arch: build-indep-stamp
 
 build-indep-stamp:
 	touch build-indep-stamp
@@ -20,7 +21,8 @@ binary-indep: build-indep
 	dh_testroot
 	dh_clean
 	dh_installdirs usr/share/doc/$(package)
-	cp -a doc/* $(instbase)/usr/share/doc/$(package)
+	cp -a * $(instbase)/usr/share/doc/$(package)
+	rm -rf $(instbase)/usr/share/doc/$(package)/debian
 	dh_installdocs
 	dh_installchangelogs
 	dh_compress -X.pdf
