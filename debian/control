@@ -4,10 +4,12 @@ Priority: optional
 Maintainer: Debian TeX maintainers <debian-tex-maint@lists.debian.org>
 Uploaders: Norbert Preining <preining@debian.org>
 Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends-Indep: tex-common (>= 2.10)
 Standards-Version: 3.9.3
 
 Package: context-doc-nonfree
 Architecture: all
+Depends: ${misc:Depends}
 Suggests: context, context-nonfree
 Description: ConTeXt documentation that is not DFSG free
  The web site of ConTeXt provides a plethora of documents in pdf format

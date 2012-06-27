@@ -7,8 +7,9 @@ and provide a huge amount of documentation for ConTeXt.
 
 If you have acroread installed you can start an interactive tour
 by opening 
-	/usr/share/doc/context-doc-nonfree/showcase.pdf
+	/usr/share/texmf/doc/context/base/showcase.pdf
 
+Accessibility is also given via texdoc.
 
 Norbert Preining
 June 2012

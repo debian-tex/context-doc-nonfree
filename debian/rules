@@ -20,12 +20,15 @@ binary-indep: build-indep
 	dh_testdir 
 	dh_testroot
 	dh_clean
-	dh_installdirs usr/share/doc/$(package)
-	cp -a * $(instbase)/usr/share/doc/$(package)
-	rm -rf $(instbase)/usr/share/doc/$(package)/debian
+	dh_installdirs usr/share/doc/$(package) \
+		usr/share/texmf/doc/context/base
+	cp -a * $(instbase)/usr/share/texmf/doc/context/base
+	rm -rf $(instbase)/usr/share/texmf/doc/context/base/debian
+	dh_link usr/share/texmf/doc/context/base usr/share/doc/$(package)
 	dh_installdocs
 	dh_installchangelogs
 	dh_compress -X.pdf
+	dh_installtex
 	dh_fixperms
 	dh_installdeb
 	dh_gencontrol
