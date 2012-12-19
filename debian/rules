@@ -21,9 +21,8 @@ binary-indep: build-indep
 	dh_testroot
 	dh_clean
 	dh_installdirs usr/share/doc/$(package) \
-		usr/share/doc/texmf/context/
-	cp -a base $(instbase)/usr/share/doc/texmf/context/
-	dh_link usr/share/doc/texmf/context/base usr/share/doc/$(package)/base
+		usr/share/texmf/doc/context/
+	cp -a base $(instbase)/usr/share/texmf/doc/context/
 	dh_installdocs
 	dh_installchangelogs
 	dh_compress -X.pdf
