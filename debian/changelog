@@ -1,3 +1,10 @@
+context-doc-nonfree (2012.06.27-4) unstable; urgency=medium
+
+  * release to unstable
+  * bump standards version, no changes necessary
+
+ -- Norbert Preining <preining@debian.org>  Wed, 22 Oct 2014 08:39:13 +0900
+
 context-doc-nonfree (2012.06.27-3) experimental; urgency=low
 
   * ship documentation back in /usr/share/texmf/doc, build-depend on

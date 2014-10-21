@@ -5,7 +5,7 @@ Maintainer: Debian TeX maintainers <debian-tex-maint@lists.debian.org>
 Uploaders: Norbert Preining <preining@debian.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: tex-common (>= 4.01)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.6
 
 Package: context-doc-nonfree
 Architecture: all
